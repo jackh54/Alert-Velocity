@@ -1,0 +1,24 @@
+# PandaBroadcast Configuration
+
+# Message format settings
+format:
+  prefix: '» '
+  title: 'Broadcast'
+  suffix: ' « '
+  message-color: '<gray>' # or &7 for legacy colors
+  prefix-color: '<gold>' # or &6 for legacy colors
+  title-color: '<yellow>' # or &e for legacy colors
+  use-legacy-colors: false # Set to true to use & color codes instead of MiniMessage format
+
+# Server targeting settings
+targeting:
+  default_behavior: 'all' # 'all' to broadcast to all servers by default, 'specific' to require server specification
+  show_server_scope: true # Whether to show which servers the broadcast was sent to
+  scope_format: '<gray>(Sent to: %servers%)' # Format for showing which servers received the broadcast
+  scope_permission_only: false # If true, only shows server scope to users with pandabroadcast.broadcast permission
+
+# Logging settings
+logging:
+  enabled: false
+  file: 'broadcasts.log'
+  format: '[%date%] %player%: %message%' 

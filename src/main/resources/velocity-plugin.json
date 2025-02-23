@@ -1,0 +1,9 @@
+{
+  "id": "pandabroadcast",
+  "name": "PandaBroadcast",
+  "version": "1.1",
+  "description": "A powerful broadcast plugin for Velocity servers",
+  "authors": ["PandaScript"],
+  "dependencies": [],
+  "main": "org.PandaScript.pandabroadcast.PandaBroadcast"
+} 
